@@ -31,6 +31,9 @@ const SinglePage = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsa animi sunt, dolores obcaecati repellendus culpa accusantium repellat perferendis vel est nihil beatae hic voluptatem minus molestiae impedit. Reprehenderit, sint.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsa animi sunt, dolores obcaecati repellendus culpa accusantium repellat perferendis vel est nihil beatae hic voluptatem minus molestiae impedit. Reprehenderit, sint.</p>
             </div>
+            <div className={styles.comment}>
+              
+            </div>
         </div>
         <Menu/>
       </div>
