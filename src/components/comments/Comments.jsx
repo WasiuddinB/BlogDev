@@ -28,9 +28,39 @@ const Comments = () => {
             </div>
             <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium iste error fugiat maiores rerum sit commodi repudiandae, ipsa, qui incidunt id voluptatem. Maxime, voluptatibus ex autem voluptas incidunt iure placeat?</p>
         </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg" alt='' width={50} height={50} className={styles.image}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}> WASI UDDIN</span>
+                    <span className={styles.date}> 09.11.2022</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium iste error fugiat maiores rerum sit commodi repudiandae, ipsa, qui incidunt id voluptatem. Maxime, voluptatibus ex autem voluptas incidunt iure placeat?</p>
+        </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg" alt='' width={50} height={50} className={styles.image}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}> WASI UDDIN</span>
+                    <span className={styles.date}> 09.11.2022</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium iste error fugiat maiores rerum sit commodi repudiandae, ipsa, qui incidunt id voluptatem. Maxime, voluptatibus ex autem voluptas incidunt iure placeat?</p>
+        </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg" alt='' width={50} height={50} className={styles.image}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}> WASI UDDIN</span>
+                    <span className={styles.date}> 09.11.2022</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium iste error fugiat maiores rerum sit commodi repudiandae, ipsa, qui incidunt id voluptatem. Maxime, voluptatibus ex autem voluptas incidunt iure placeat?</p>
+        </div>
       </div>
     </div>
   )
 }
 
-export default Comments
+export default Comments;
